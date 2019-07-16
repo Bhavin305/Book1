@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.list-item {
+  width: 240px;
+  /* float: left; */
+  display: inline-block;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.list-item-img-wrapper {
+  height: 270px;
+  position: relative;
+}
+
+.list-item-img-wrapper .item-img{
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden
+}
+
+.list-item-img-wrapper .item-img img {
+  flex-shrink:0;
+  min-width:100%;
+  min-height:100%
+}
+
+.list-item-img-wrapper .fix-play-ntn {
+  position: absolute;
+  top: 94px;
+  left: 70px;
+  color: #fff;
+}
+
+.fix-show-date {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #39b27a;
+  border-radius: 50%;
+  font-size: 13px;
+  text-align: center;
+  color: #FFF;
+  background: #39b27a;
+}
+
+.list-item-title {
+  font-size: 14px;
+  color: #FFF;
+  margin-top: 5px;
+  height: 40px;
+}
+
+.movies-container {
+  background: #272727;
+}
+
+.movies-wrapper:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.movies-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.list-item-legend {
+  position: absolute;
+  bottom: 0;
+  text-align: right;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  background-image: linear-gradient(#ffffff00, #505050);
+}
+
+.list-item-legend p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  color: #FFF;
+}
+
+.list-item-legend small {
+  font-size: 10px;
+  color: #FFF;
+}
+
+.play-box {
+  height: 440px;
+  box-sizing: border-box;
+  padding: 40px 20px;
+  background-image: linear-gradient(#272722 10%, #ccc 40%, #272727);
+}
+
+.play-frame {
+  width: 60%;
+  height: 100%;
+  float: left;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.play-detail-box-wrapper {
+  float: left;
+  width: 40%;
+  height: 100%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.play-detail-box {
+  background: #646464ad;
+  width: 100%;
+  height: 100%;
+}
+
+.play-box:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.popover-items {
+  width: 200px;
+}
+
+.selected-filter-item {
+  display: inline-block;
+}
+
+.selected-filter-item button {
+  display: inline-block;
+}
+
+.selected-filter-item p {
+  display: inline-block;
+}
